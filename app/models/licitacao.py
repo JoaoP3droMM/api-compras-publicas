@@ -25,6 +25,10 @@ class Licitacao(Base):
         secondary=licitacao_fornecedor_association, back_populates="licitacoes"
     )
 
+# ATENÇÃO! JOÃO PEDRO TRABALHOU NESTE PROJETO, POREM, UMA ALMA ABENÇOADA CHHAMADA CHRISTIAN RESOLVEU CRIAR UM NOVO REPOSITÓRIO, OCAZIONANDO ASSIM EM UMA PERCA DO MEU NOME NAS ALTERAÇÕES
+# MAS EU JURO QUE FIZ ALGO KKKKKK
+
+
 class Contrato(Base):
     __tablename__ = "contratos"
     id: Mapped[int] = mapped_column(primary_key=True, index=True)
